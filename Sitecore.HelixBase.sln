@@ -17,11 +17,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{A7F8944A-6349-48D7-B56C-0E8ACDC56B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.HelixBase.Website", "Project\Sitecore.HelixBase.Website\Sitecore.HelixBase.Website.csproj", "{A34E7CB2-1133-4F3C-BB0A-60124649D7C4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34E7CB2-1133-4F3C-BB0A-60124649D7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34E7CB2-1133-4F3C-BB0A-60124649D7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34E7CB2-1133-4F3C-BB0A-60124649D7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34E7CB2-1133-4F3C-BB0A-60124649D7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A34E7CB2-1133-4F3C-BB0A-60124649D7C4} = {A7F8944A-6349-48D7-B56C-0E8ACDC56B8F}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {A8D9A510-3E56-4706-A84A-F53EEA55CFE7}
 	EndGlobalSection
 EndGlobal
