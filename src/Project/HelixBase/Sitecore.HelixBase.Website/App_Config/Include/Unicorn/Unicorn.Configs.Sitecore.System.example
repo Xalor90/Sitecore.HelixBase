@@ -1,0 +1,21 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+	<sitecore>
+		<unicorn>
+			<configurations>
+				<configuration name="Sitecore.System" description="Default Sitecore items and settings.">
+          <targetDataStore physicalRootPath="[Replace with Solution path]\src\Project\HelixBase\Sitecore.HelixBase.Website\App_Data\Unicorn\$(configurationName)" useDataCache="false" type="Rainbow.Storage.SerializationFileSystemDataStore, Rainbow" singleInstance="true"/>
+          <predicate>
+						<include name="Languages" database="master" path="/sitecore/system/Languages" />
+						<include name="Tasks" database="master" path="/sitecore/system/Tasks">
+							<exclude path="Schedules" />
+						</include>
+						<include name="Workflows" database="master" path="/sitecore/system/Workflows" />
+						<include name="Settings" database="master" path="/sitecore/system/Settings" />
+					</predicate>
+					<dataProviderConfiguration enableTransparentSync="false" />
+					<syncConfiguration updateLinkDatabase="false" updateSearchIndex="false" />
+				</configuration>
+			</configurations>
+		</unicorn>
+	</sitecore>
+</configuration>
