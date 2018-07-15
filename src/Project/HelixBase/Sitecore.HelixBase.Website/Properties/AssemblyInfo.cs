@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Sitecore.HelixBase.Website")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("XalorTech")]
 [assembly: AssemblyProduct("Sitecore.HelixBase.Website")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © XalorTech 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a34e7cb2-1133-4f3c-bb0a-60124649d7c4")]
+[assembly: Guid("490ccd21-8734-4999-942b-32ff6e33c636")]
 
 // Version information for an assembly consists of the following four values:
 //
