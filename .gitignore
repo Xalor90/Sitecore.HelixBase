@@ -260,5 +260,16 @@ paket-files/
 __pycache__/
 *.pyc
 
-/src/Sitecore.Project.XalorTech/App_Config/Include/Unicorn/
+# Unicorn files
 **/Rainbow.config
+**/App_Config/Include/Unicorn/
+
+**/App_Config/Include/Foundation/
+src/Project/HelixBase/Sitecore.HelixBase.Website/sitecore/
+
+installation/
+src/Foundation/Extension/Sitecore.Foundation.Extension.DynamicPlaceholderRendering/
+src/Foundation/Extension/Sitecore.Foundation.Extension.FieldType/
+src/Foundation/Extension/Sitecore.Foundation.Extension.MediaType/
+src/Foundation/Extension/Sitecore.Foundation.Extension.ResponsiveImage/
+src/Foundation/Extension/Sitecore.Foundation.Extension.StandardValueCustomToken/

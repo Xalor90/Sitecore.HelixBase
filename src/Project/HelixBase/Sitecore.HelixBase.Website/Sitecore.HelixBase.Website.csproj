@@ -378,6 +378,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Extension\DynamicPlaceholderRendering\PerformRendering.config" />
+    <Content Include="App_Config\Include\Foundation\Extension\MediaType\AddMediaTypeSVG.config" />
+    <Content Include="App_Config\Include\Foundation\Extension\ResponsiveImage\GetResponsiveImage.config" />
+    <Content Include="App_Config\Include\Foundation\Extension\StandardValueCustomToken\LowerName.config" />
+    <Content Include="sitecore\shell\override\InsertImage.xml" />
+    <None Include="Properties\PublishProfiles\LocalDeploy.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -386,6 +392,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Extension\Sitecore.Foundation.Extension.DynamicPlaceholderRendering\Sitecore.Foundation.Extension.DynamicPlaceholderRendering.csproj">
+      <Project>{771386f1-559d-4a9e-88c8-8ce6983afeb1}</Project>
+      <Name>Sitecore.Foundation.Extension.DynamicPlaceholderRendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Extension\Sitecore.Foundation.Extension.FieldType\Sitecore.Foundation.Extension.FieldType.csproj">
+      <Project>{141a2f4c-3c36-4d33-b7ff-b0f704b3655e}</Project>
+      <Name>Sitecore.Foundation.Extension.FieldType</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Extension\Sitecore.Foundation.Extension.MediaType\Sitecore.Foundation.Extension.MediaType.csproj">
+      <Project>{43132c03-46ef-4337-a6ac-b070c9e760ec}</Project>
+      <Name>Sitecore.Foundation.Extension.MediaType</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Extension\Sitecore.Foundation.Extension.ResponsiveImage\Sitecore.Foundation.Extension.ResponsiveImage.csproj">
+      <Project>{26b4b1d9-a73e-40d9-9051-e5eeea69d0fe}</Project>
+      <Name>Sitecore.Foundation.Extension.ResponsiveImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Extension\Sitecore.Foundation.Extension.StandardValueCustomToken\Sitecore.Foundation.Extension.StandardValueCustomToken.csproj">
+      <Project>{b8938df0-a45d-40e5-8df8-51001a649cba}</Project>
+      <Name>Sitecore.Foundation.Extension.StandardValueCustomToken</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
