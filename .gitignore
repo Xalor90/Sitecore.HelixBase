@@ -260,6 +260,10 @@ paket-files/
 __pycache__/
 *.pyc
 
+# Glass files
+**/App_Config/Include/*Glass.Mapper*
+**/App_Start/GlassMapper*
+
 # Unicorn files
 **/Rainbow.config
 **/App_Config/Include/Unicorn/
