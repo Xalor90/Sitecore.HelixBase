@@ -2,7 +2,7 @@
 # Import all external git repositories to proper locations
 
 # Set these variables before running this script:
-root="C:\\\Users\\\xalor\\\source\\\repos\\\Sitecore.HelixBase"
+root="C:\\\Code\\\Sitecore.HelixBase"
 web="src/Project/HelixBase/Sitecore.HelixBase.Website"
 
 installDynamicPlaceholderRendering=true
