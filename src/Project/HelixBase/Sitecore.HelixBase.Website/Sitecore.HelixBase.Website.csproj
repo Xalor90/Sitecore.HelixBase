@@ -437,6 +437,8 @@
     <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.HelixBase.Global.config" />
+    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.HelixBase.Global.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Sitecore.System.example" />
     <Content Include="App_Data\Unicorn\Sitecore.System\Languages\Languages.yml" />
     <Content Include="App_Data\Unicorn\Sitecore.System\Languages\Languages\en.yml" />

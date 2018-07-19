@@ -13,7 +13,16 @@ installStandardValueCustomToken=true
 
 # Create Unicorn files for web project
 location="$web/App_Config/Include/Unicorn/"
+
+# Sitecore.System
 file="Unicorn.Configs.Sitecore.System"
+
+cp "$location/$file.example" "$location/$file.config"
+
+sed -i "s/\[Replace with Solution path\]/$root/g" "$location/$file.config"
+
+# HelixBase.Global
+file="Unicorn.Configs.HelixBase.Global"
 
 cp "$location/$file.example" "$location/$file.config"
 
