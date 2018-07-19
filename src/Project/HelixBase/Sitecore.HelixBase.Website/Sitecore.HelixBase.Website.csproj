@@ -2414,6 +2414,8 @@
     <Content Include="App_Data\Unicorn\Sitecore.System\Workflows\Workflows\Segment\Initializing.yml" />
     <Content Include="App_Data\Unicorn\Sitecore.System\Workflows\Workflows\Segment\Initializing\Deploy.yml" />
     <Content Include="App_Config\Include\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
+    <Content Include="App_Data\Unicorn\HelixBase.Global\Templates\Global.yml" />
+    <Content Include="App_Data\Unicorn\HelixBase.Global\Templates\Global\ZurbFoundation.yml" />
     <None Include="Properties\PublishProfiles\LocalDeploy.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
