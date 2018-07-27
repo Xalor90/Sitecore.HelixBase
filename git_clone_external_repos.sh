@@ -2,7 +2,7 @@
 # Import all external git repositories to proper locations
 
 # Set these variables before running this script:
-root="C:\\\Code\\\Sitecore.HelixBase"
+root="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 web="src/Project/HelixBase/Sitecore.HelixBase.Website"
 
 installDynamicPlaceholderRendering=true
